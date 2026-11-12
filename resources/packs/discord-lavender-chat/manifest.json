@@ -1,0 +1,16 @@
+{
+  "id": "discord.lavender-chat",
+  "name": "Lavender Chat",
+  "app": "discord",
+  "version": "1.0.0",
+  "description": "Tông tím lavender dịu.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

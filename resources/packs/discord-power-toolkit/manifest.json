@@ -1,0 +1,23 @@
+{
+  "id": "discord.power-toolkit",
+  "name": "Power Toolkit",
+  "app": "discord",
+  "version": "1.0.0",
+  "description": "Các tiện ích thao tác nhanh và chế độ tin nhắn gọn cho Discord Web.",
+  "features": [
+    "Compact Mode tùy chỉnh mật độ tin nhắn",
+    "Ctrl + Shift + M để bật/tắt Compact Mode",
+    "Ctrl + Shift + K để focus ô nhập tin nhắn",
+    "Bảng công cụ nổi có trạng thái bật/tắt"
+  ],
+  "assets": [
+    "theme.css",
+    "mod.js"
+  ],
+  "kind": "functional-mod",
+  "compatibility": {
+    "status": "cdp-css-js-injection",
+    "engine": "Diamonda CDP"
+  },
+  "author": "Diamonda Community"
+}

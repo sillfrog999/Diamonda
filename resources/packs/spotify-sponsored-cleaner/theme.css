@@ -1,0 +1,10 @@
+/* Diamonda Spotify Sponsored Cleaner: hide identifiable sponsored placements */
+.adSlot,
+[data-testid="ad-banner"],
+[data-testid="ad-slot"],
+[data-testid="sponsored-content"],
+[aria-label^="Sponsored" i],
+[aria-label*="Advertisement" i] {
+  display: none !important;
+  visibility: hidden !important;
+}

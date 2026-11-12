@@ -1,0 +1,16 @@
+{
+  "id": "spotify.blue-note",
+  "name": "Blue Note",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Tông xanh đậm tối giản.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

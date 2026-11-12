@@ -1,0 +1,28 @@
+{
+  "id": "youtube.ad-cleaner",
+  "name": "YouTube Ad Cleaner",
+  "app": "youtube",
+  "version": "1.0.0",
+  "description": "Ẩn các vị trí quảng cáo trên trang YouTube và tự nhấn nút Bỏ qua quảng cáo khi nút bỏ qua xuất hiện. Không can thiệp luồng mạng hoặc quảng cáo không thể bỏ qua.",
+  "features": [
+    "Ẩn banner và thẻ quảng cáo trong trang",
+    "Ẩn khu vực quảng cáo quanh trình phát",
+    "Tự nhấn Bỏ qua quảng cáo khi YouTube hiển thị nút này",
+    "Theo dõi thay đổi giao diện SPA bằng MutationObserver",
+    "Có thể Unapply và dọn observer"
+  ],
+  "assets": [
+    "theme.css",
+    "mod.js"
+  ],
+  "kind": "functional-mod",
+  "author": "Diamonda Community",
+  "compatibility": {
+    "status": "cdp-css-js-injection",
+    "engine": "Diamonda CDP"
+  },
+  "notes": [
+    "Không chặn yêu cầu mạng hoặc quảng cáo không có nút bỏ qua.",
+    "Selector có thể cần cập nhật khi YouTube thay đổi giao diện."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "facebook.feed-toolkit",
+  "name": "Feed Toolkit",
+  "app": "facebook",
+  "version": "1.0.0",
+  "description": "Công cụ tùy chỉnh vùng hiển thị và điều hướng bảng tin Facebook.",
+  "features": [
+    "Ẩn/hiện cột phụ để tập trung bảng tin",
+    "Ẩn/hiện khu vực Stories/Reels khi nhận diện được",
+    "Phím tắt Alt + Shift + F để bật/tắt Focus Feed",
+    "Nút cuộn về đầu trang"
+  ],
+  "assets": [
+    "theme.css",
+    "mod.js"
+  ],
+  "kind": "functional-mod",
+  "compatibility": {
+    "status": "cdp-css-js-injection",
+    "engine": "Diamonda CDP"
+  },
+  "author": "Diamonda Community"
+}

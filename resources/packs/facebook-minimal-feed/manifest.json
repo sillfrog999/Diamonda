@@ -1,0 +1,16 @@
+{
+  "id": "facebook.minimal-feed",
+  "name": "Minimal Feed",
+  "app": "facebook",
+  "version": "1.0.0",
+  "description": "Phong cách bảng tin tối giản.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

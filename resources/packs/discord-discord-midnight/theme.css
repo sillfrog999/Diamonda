@@ -1,0 +1,21 @@
+/* Diamonda live theme: Discord Midnight */
+:root {
+  --diamonda-background: #171923;
+  --diamonda-foreground: #f1f2f8;
+  --diamonda-accent: #858bea;
+}
+
+:root { color-scheme: dark; }
+html, body, #app-mount, #app-mount .appMount_2yBXZl,
+#app-mount [class*="app_"], #app-mount [class*="chatContent_"],
+#app-mount [class*="chat_"], #app-mount [class*="sidebar_"],
+#app-mount [class*="container_"], #app-mount [class*="members_"] {
+  background-color: var(--diamonda-background) !important;
+  color: var(--diamonda-foreground) !important;
+}
+#app-mount [class*="title_"], #app-mount [class*="header_"],
+#app-mount [class*="channel_"], #app-mount [class*="message_"],
+#app-mount [class*="markup_"] { color: var(--diamonda-foreground) !important; }
+#app-mount [class*="lookFilled"], #app-mount [class*="button_"]:hover {
+  background-color: var(--diamonda-accent) !important;
+}

@@ -1,0 +1,16 @@
+{
+  "id": "discord.nord-frost",
+  "name": "Nord Frost",
+  "app": "discord",
+  "version": "1.0.0",
+  "description": "Bảng màu lạnh lấy cảm hứng Bắc Âu.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

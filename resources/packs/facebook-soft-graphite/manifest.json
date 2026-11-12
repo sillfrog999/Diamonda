@@ -1,0 +1,16 @@
+{
+  "id": "facebook.soft-graphite",
+  "name": "Soft Graphite",
+  "app": "facebook",
+  "version": "1.0.0",
+  "description": "Tông xám than trung tính.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

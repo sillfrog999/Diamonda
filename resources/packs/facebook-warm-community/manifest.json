@@ -1,0 +1,16 @@
+{
+  "id": "facebook.warm-community",
+  "name": "Warm Community",
+  "app": "facebook",
+  "version": "1.0.0",
+  "description": "Tông màu ấm cho trải nghiệm cộng đồng.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

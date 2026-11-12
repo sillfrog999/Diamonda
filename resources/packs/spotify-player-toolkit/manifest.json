@@ -1,0 +1,23 @@
+{
+  "id": "spotify.player-toolkit",
+  "name": "Player Toolkit",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Bảng điều khiển nhanh cho Spotify Web Player.",
+  "features": [
+    "Play/Pause trực tiếp",
+    "Next và Previous track",
+    "Phím tắt Alt + Shift + P / N / B",
+    "Bảng điều khiển nổi, không thay đổi dữ liệu tài khoản"
+  ],
+  "assets": [
+    "theme.css",
+    "mod.js"
+  ],
+  "kind": "functional-mod",
+  "compatibility": {
+    "status": "cdp-css-js-injection",
+    "engine": "Diamonda CDP"
+  },
+  "author": "Diamonda Community"
+}

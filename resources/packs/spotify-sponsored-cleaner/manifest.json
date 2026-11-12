@@ -1,0 +1,27 @@
+{
+  "id": "spotify.sponsored-cleaner",
+  "name": "Spotify Sponsored Cleaner",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Ẩn các vị trí quảng bá và nội dung được tài trợ hiển thị trong giao diện Spotify Web. Không chặn quảng cáo âm thanh được phân phối trong luồng phát.",
+  "features": [
+    "Ẩn các ad slot và banner quảng cáo nhận diện được",
+    "Ẩn nhãn và thẻ nội dung được tài trợ",
+    "Theo dõi thay đổi giao diện bằng MutationObserver",
+    "Có thể Unapply và khôi phục phần tử đã ẩn"
+  ],
+  "assets": [
+    "theme.css",
+    "mod.js"
+  ],
+  "kind": "functional-mod",
+  "author": "Diamonda Community",
+  "compatibility": {
+    "status": "cdp-css-js-injection",
+    "engine": "Diamonda CDP"
+  },
+  "notes": [
+    "Không chặn quảng cáo âm thanh trong luồng phát Spotify.",
+    "Selector có thể cần cập nhật khi Spotify thay đổi giao diện."
+  ]
+}

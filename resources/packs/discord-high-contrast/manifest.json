@@ -1,0 +1,16 @@
+{
+  "id": "discord.high-contrast",
+  "name": "High Contrast",
+  "app": "discord",
+  "version": "1.0.0",
+  "description": "Tăng độ phân biệt giữa các vùng giao diện.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

@@ -1,0 +1,21 @@
+/* Diamonda live theme: Nord Frost */
+:root {
+  --diamonda-background: #2e3440;
+  --diamonda-foreground: #eceff4;
+  --diamonda-accent: #88c0d0;
+}
+
+:root { color-scheme: dark; }
+html, body, #app-mount, #app-mount .appMount_2yBXZl,
+#app-mount [class*="app_"], #app-mount [class*="chatContent_"],
+#app-mount [class*="chat_"], #app-mount [class*="sidebar_"],
+#app-mount [class*="container_"], #app-mount [class*="members_"] {
+  background-color: var(--diamonda-background) !important;
+  color: var(--diamonda-foreground) !important;
+}
+#app-mount [class*="title_"], #app-mount [class*="header_"],
+#app-mount [class*="channel_"], #app-mount [class*="message_"],
+#app-mount [class*="markup_"] { color: var(--diamonda-foreground) !important; }
+#app-mount [class*="lookFilled"], #app-mount [class*="button_"]:hover {
+  background-color: var(--diamonda-accent) !important;
+}

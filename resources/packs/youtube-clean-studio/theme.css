@@ -1,0 +1,30 @@
+/* Diamonda live theme: Clean Studio */
+:root {
+  --diamonda-background: #f5f6f8;
+  --diamonda-foreground: #20242b;
+  --diamonda-accent: #4776c7;
+}
+
+:root { color-scheme: dark; }
+html, body, ytd-app, #page-manager, ytd-browse, ytd-watch-flexy,
+#masthead-container, ytd-mini-guide-renderer, ytd-guide-renderer,
+#columns, #primary, #secondary, #below, #chat-container,
+ytd-rich-grid-renderer, ytd-rich-item-renderer, ytd-video-renderer,
+ytd-compact-video-renderer, ytd-playlist-panel-renderer {
+  background-color: var(--diamonda-background) !important;
+  color: var(--diamonda-foreground) !important;
+}
+#content, #contentContainer, #chips-wrapper, ytd-searchbox,
+ytd-watch-metadata, ytd-comments, ytd-comment-thread-renderer {
+  background-color: var(--diamonda-background) !important;
+  color: var(--diamonda-foreground) !important;
+}
+a, #video-title, yt-formatted-string, #text, #author-text {
+  color: var(--diamonda-foreground) !important;
+}
+ytd-guide-entry-renderer[active] #endpoint,
+.yt-spec-button-shape-next--call-to-action,
+#subscribe-button yt-button-shape button {
+  background-color: var(--diamonda-accent) !important;
+  color: #ffffff !important;
+}

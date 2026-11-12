@@ -1,0 +1,18 @@
+/* Diamonda YouTube Ad Cleaner: cosmetic page-level filtering */
+ytd-ad-slot-renderer,
+ytd-display-ad-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-promoted-video-renderer,
+ytd-in-feed-ad-layout-renderer,
+ytd-banner-promo-renderer,
+#player-ads,
+#masthead-ad,
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-overlay-container,
+.ytp-ad-overlay-slot,
+ytd-action-companion-ad-renderer {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

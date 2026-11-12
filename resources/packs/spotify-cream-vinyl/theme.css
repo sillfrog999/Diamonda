@@ -1,0 +1,21 @@
+/* Diamonda live theme: Cream Vinyl */
+:root {
+  --diamonda-background: #f2eadb;
+  --diamonda-foreground: #29241d;
+  --diamonda-accent: #ba8751;
+}
+
+:root { color-scheme: dark; }
+html, body, .Root, #main, main, nav, aside,
+[data-testid="topbar"], [data-testid="now-playing-bar"],
+[data-testid="playlist-page"], [data-testid="tracklist"],
+[data-testid="left-sidebar"], [data-testid="right-sidebar"],
+[data-testid="control-button"] {
+  background-color: var(--diamonda-background) !important;
+  color: var(--diamonda-foreground) !important;
+}
+main *, [data-testid="playlist-page"] *, [data-testid="tracklist"] * {
+  color: var(--diamonda-foreground);
+}
+button, [role="button"] { --diamonda-active-color: var(--diamonda-accent); }
+button:hover, [role="button"]:hover { border-color: var(--diamonda-accent) !important; }

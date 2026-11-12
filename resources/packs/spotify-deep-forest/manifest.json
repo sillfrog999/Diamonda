@@ -1,0 +1,16 @@
+{
+  "id": "spotify.deep-forest",
+  "name": "Deep Forest",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Tông xanh rừng cho trình phát nhạc.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "facebook.mint-social",
+  "name": "Mint Social",
+  "app": "facebook",
+  "version": "1.0.0",
+  "description": "Tông xanh bạc hà nhẹ.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "discord.discord-midnight",
+  "name": "Discord Midnight",
+  "app": "discord",
+  "version": "1.0.0",
+  "description": "Tông tối sâu cho giao diện trò chuyện.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

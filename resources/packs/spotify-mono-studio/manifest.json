@@ -1,0 +1,16 @@
+{
+  "id": "spotify.mono-studio",
+  "name": "Mono Studio",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Phong cách đơn sắc cho trình phát.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

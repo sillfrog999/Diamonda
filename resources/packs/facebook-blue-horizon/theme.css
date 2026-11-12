@@ -1,0 +1,25 @@
+/* Diamonda live theme: Blue Horizon */
+:root {
+  --diamonda-background: #132b49;
+  --diamonda-foreground: #eef5ff;
+  --diamonda-accent: #4d9de0;
+}
+
+:root { color-scheme: dark; }
+html, body { background-color: var(--diamonda-background) !important; color: var(--diamonda-foreground) !important; }
+[role="main"], [role="navigation"], [role="complementary"],
+[role="feed"], [role="article"], [data-pagelet],
+[data-pagelet*="Feed"], [data-pagelet*="LeftRail"],
+[data-pagelet*="RightRail"], [role="dialog"] {
+  color: var(--diamonda-foreground) !important;
+}
+[role="article"], [data-pagelet*="Feed"] {
+  background-color: var(--diamonda-background) !important;
+  border-color: var(--diamonda-accent) !important;
+}
+input, textarea, [role="textbox"] {
+  background-color: var(--diamonda-background) !important;
+  color: var(--diamonda-foreground) !important;
+  border-color: var(--diamonda-accent) !important;
+}
+a, [role="link"] { color: var(--diamonda-accent) !important; }

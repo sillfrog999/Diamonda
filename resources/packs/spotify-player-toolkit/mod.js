@@ -1,0 +1,9 @@
+(() => {
+  const style=document.createElement('style');style.id='diamonda-spotify-toolkit-style';style.textContent='#diamonda-spotify-toolkit{position:fixed;z-index:2147483000;right:18px;bottom:20px;background:#101d16;color:#fff;border:1px solid #1ed760;border-radius:12px;padding:10px;font:12px Arial;box-shadow:0 8px 30px #0008}#diamonda-spotify-toolkit .dt-row{display:flex;gap:6px;margin-top:7px}#diamonda-spotify-toolkit button{background:#1ed760;color:#07130b;border:0;border-radius:8px;padding:8px 10px;font-weight:700;cursor:pointer}';document.documentElement.appendChild(style);
+  const panel=document.createElement('div');panel.id='diamonda-spotify-toolkit';panel.innerHTML='<b>DIAMONDA · PLAYER</b><div class="dt-row"><button data-act="previous">|◀</button><button data-act="play">Play / Pause</button><button data-act="next">▶|</button></div><small>Alt + Shift + P / N / B</small>';document.documentElement.appendChild(panel);
+  const findButton=(patterns)=>{const all=[...document.querySelectorAll('button')];return all.find(b=>{const label=(b.getAttribute('aria-label')||'').toLowerCase();return patterns.some(p=>label.includes(p))})};
+  const act=a=>{let b;if(a==='play')b=findButton(['pause','play']);if(a==='next')b=findButton(['next']);if(a==='previous')b=findButton(['previous']);if(b)b.click()};
+  panel.addEventListener('click',e=>{const a=e.target.closest('button')?.dataset.act;if(a)act(a)});
+  const handler=e=>{if(!e.altKey||!e.shiftKey)return;const k=e.key.toLowerCase();const a=k==='p'?'play':k==='n'?'next':k==='b'?'previous':null;if(a){act(a);e.preventDefault()}};document.addEventListener('keydown',handler,true);
+  window.__diamondaCleanup=window.__diamondaCleanup||{};window.__diamondaCleanup[key]=()=>{document.removeEventListener('keydown',handler,true);panel.remove();style.remove()};
+})();

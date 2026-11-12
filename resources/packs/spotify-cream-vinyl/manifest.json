@@ -1,0 +1,16 @@
+{
+  "id": "spotify.cream-vinyl",
+  "name": "Cream Vinyl",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Tông kem cổ điển.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

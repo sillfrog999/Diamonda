@@ -1,0 +1,16 @@
+{
+  "id": "youtube.warm-paper",
+  "name": "Warm Paper",
+  "app": "youtube",
+  "version": "1.0.0",
+  "description": "Tông màu ấm, độ tương phản nhẹ.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

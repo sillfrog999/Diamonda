@@ -1,0 +1,16 @@
+{
+  "id": "spotify.neon-pulse",
+  "name": "Neon Pulse",
+  "app": "spotify",
+  "version": "1.0.0",
+  "description": "Tông neon hiện đại.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

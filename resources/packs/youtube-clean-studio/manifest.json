@@ -1,0 +1,16 @@
+{
+  "id": "youtube.clean-studio",
+  "name": "Clean Studio",
+  "app": "youtube",
+  "version": "1.0.0",
+  "description": "Bố cục tối giản, giảm chi tiết trang trí.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

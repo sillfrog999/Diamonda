@@ -1,0 +1,16 @@
+{
+  "id": "discord.terminal-green",
+  "name": "Terminal Green",
+  "app": "discord",
+  "version": "1.0.0",
+  "description": "Phong cách terminal xanh lá.",
+  "author": "Diamonda Community",
+  "assets": [
+    "theme.css"
+  ],
+  "kind": "live-css-theme",
+  "compatibility": {
+    "status": "cdp-css-injection",
+    "engine": "Diamonda CDP"
+  }
+}

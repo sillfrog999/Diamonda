@@ -1,0 +1,24 @@
+{
+  "id": "youtube.creator-toolkit",
+  "name": "Creator Toolkit",
+  "app": "youtube",
+  "version": "1.0.0",
+  "description": "Bộ công cụ điều khiển trình phát và tập trung khi xem YouTube.",
+  "features": [
+    "Tăng/giảm tốc độ phát ngay trên trang",
+    "Bật Picture-in-Picture nếu trình duyệt hỗ trợ",
+    "Bật/tắt Theater Mode",
+    "Bảng điều khiển nổi có thể kéo",
+    "Phím tắt Alt + ←/→ để tua 5 giây"
+  ],
+  "assets": [
+    "theme.css",
+    "mod.js"
+  ],
+  "kind": "functional-mod",
+  "compatibility": {
+    "status": "cdp-css-js-injection",
+    "engine": "Diamonda CDP"
+  },
+  "author": "Diamonda Community"
+}
